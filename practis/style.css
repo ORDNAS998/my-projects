@@ -1,0 +1,91 @@
+*{
+	background-color: grey;
+	font-family: monospace;, "Courier New";
+}
+h1{
+color:#2b6f99;
+background-color: #94F4DC;
+margin-top: 150px;
+margin-left: 20px;
+margin-bottom: 150px;
+margin-right: 0px;
+padding: 10px 15px 25px 5px; 
+}
+h2{
+border-style:solid;
+border-color:red;
+border-radius:1500px;
+border-width:10px;
+margin: 30px;
+padding: 50px;
+}
+h3{
+border: dotted blue 35px;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+h6{
+border-top-style: dotted;
+border-right-style: double;
+border-bottom-style: ridge;
+border-left-style: solid;
+border-left-width: 50px;
+border-top-color: red;
+border-top-width: 200px; 
+}
+h5{
+	border-style: double dotted solid ridge;
+	border-width: 10px 200px 12px 2px;
+	border-color: yellow blue;
+}
+.link:link, .link:visited{
+border: dotted gray 10px;
+text-decoration-style: wavy;
+}
+/*a:visited{
+border: dashed blue 15px;
+text-decoration-style: double;
+text-decoration-line: overline;
+}*/
+.link:hover{
+	cursor: pointer;
+	background-color: yellow;
+border: groove green 25px;
+text-decoration-style: double;
+text-decoration-line: overline;
+font-size: 25px;
+}
+.link:active{
+	cursor: progress;
+	color: purple
+	background-color: pink;
+border: dashed green 35px;
+text-decoration-style: double;
+text-decoration-line: overline;
+font-size: 35px;
+}
+.tomatik:link, .tomatik:visited{
+	border: double red 25px;
+	text-decoration-style: dotted;
+	font-size: 10px;
+}
+.tomatik:hover{
+	border: double blue 30px;
+	background-color: blue;
+	 text-decoration-style: dashed;
+	 font-size: 20px;
+}
+.tomatik:active{
+	border: double blue 30px;
+	background-color: blue;
+	 text-decoration-style: dashed;
+	 font-size: 25px;
+}
+/* 
+link
+visited
+hover
+active
+*/

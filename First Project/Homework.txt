@@ -1,0 +1,5 @@
+Create new file of HTML and CSS and name it myself.html and design.css
+write this webpage about yourself or anything other you want.
+use every tag what  we have learned and css properties(color and backgrotund-color).
+ color picker webpage:
+ https://htmlcolorcodes.com/color-picker/

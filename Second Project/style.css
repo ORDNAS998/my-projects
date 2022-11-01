@@ -1,0 +1,42 @@
+@import 'font.css';
+.imeges{
+	width: 3%;
+}
+.input{
+	width: 95%;
+	height: 40px;
+}
+.writing-blocks{
+	border: solid 1px #ECEEED;
+	background-color: #ECEEED;
+	box-shadow: 10px 10px 10px #CFC1C1;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	color: #2196F3;
+	font: 30px;
+	margin: 10px 0px;
+	font-size: 30px;
+	font-family: Segue-UI;
+}
+.submit{
+	background-color: #2196F3;
+	border:#2196F3 1px solid;
+	color: white;
+	width: 60px;
+	margin: 16px 0px;
+	padding: 8px 16px;
+	font-size: 15px;
+	text-decoration: none;
+}
+.submit:hover{
+	border:#CFC1C1 1px solid;
+	text-decoration: none;
+	color: black;
+	background-color: #CFC1C1;
+}
+.send-div{
+	display: flex;
+	justify-content: center;
+}

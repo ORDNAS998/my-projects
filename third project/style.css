@@ -1,0 +1,192 @@
+body{
+	background-image: url('background.jpg');
+}
+.logo-line{
+	display: flex;
+	justify-content: space-between;
+}
+.login-button{
+	text-decoration-line: none;
+	color: white;
+}
+.registration-button{
+	text-decoration-line: none;
+	color: white;
+}
+.buttons{
+	display: inline-flex;
+	margin-top: 35px;
+	margin-right: 100px;
+}
+.logo{
+	color: white;
+	margin-left: 100px;
+}
+.search{
+	margin-top: 35px;
+	margin-left: 500px;
+}
+.navigation{
+	display: flex;
+	justify-content: center;
+}
+.navigation-link{
+	margin: 15px;
+	text-decoration-line: none;
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	border-width: 5px; 
+}
+.navigation-link:hover{
+	margin: 15px;
+	text-decoration-line: none;
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px; 
+}
+.navigation-link:active{
+	margin: 15px;
+	text-decoration-line: none;
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	border-width: 5px; 
+}
+.hero-img{
+	width: 100%;
+}
+.hero-section{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.hero-texts{
+	position: absolute;
+	top: 205px;
+	width: 60%;
+}
+.hero-title{
+	font-size: 70px;
+	margin-left: 100px;
+}
+.hero-text{
+	font-size: 30px;
+	margin-left: 100px;
+}
+.hero-link{
+	margin-left: 100px;
+	text-decoration-line: none;
+	color: white;
+	background-color: #6E2C00;
+	font-size: 25px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #D35400;
+	border-width: 5px; 
+}
+.hero-link:hover{
+	text-decoration-line: none;
+	color: white;
+	background-color: #D35400;
+	font-size: 25px;
+	border-style: solid;
+	border-color: #6E2C00;
+	border-width: 5px; 
+}
+.hero-link:active{
+	text-decoration-line: none;
+	color: white;
+	background-color: #D35400;
+	font-size: 25px;
+	border-style: solid;
+	border-color: #D35400;
+	border-width: 5px;
+}
+.burger-img{
+	width: 27%;
+	margin-left:100px;
+	margin-top: 10px;
+}
+.vegetebles-img{
+	width: 27%;
+	margin-left:55px;
+	margin-right:55px;
+	margin-top: 10px;
+}.food-img{
+	width: 22%;
+	margin-right:100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.food-title{
+	display: flex;
+	justify-content: space-around;
+}
+.veg-img{
+	width: 50%;
+	vertical-align: middle;
+}
+.veg-text{
+	display: inline-block;
+	margin-left: 200px;
+}
+.veg-h-one{
+	color: white;
+	margin-left: 5px;
+}
+.veg-a-tag{
+	text-decoration-line: none;
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	border-width: 5px; 
+}
+.veg-a-tag:hover{
+	text-decoration-line: none;
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	border: none;
+}
+	.veg-a-tag:active{
+	text-decoration-line: none;
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+.veg{
+	margin-top: 35px; 
+}
+.img{
+	width: 1.5%;
+	margin-left: 50px;
+}
+.h-four{
+	margin: 0px;
+	margin-top: 15px;
+}
+.footer{
+	background-color: white;
+	opacity: 30%;
+	margin: 0;
+	
+}

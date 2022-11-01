@@ -1,0 +1,197 @@
+@import 'font.css';
+* {
+	margin: 0;
+	font-family:Karma-Light;
+}
+.side-nav{
+	height: 100%;
+	width: 400px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+.menu-button-letters{
+	text-decoration: none;
+	color: #000000;
+}
+.menu-button{
+	padding: 16px;
+	color: #000000;
+	font: 44px;
+}
+.menu-button:hover {
+	border:solid 1px #bfbaba;
+	background-color: #bfbaba;
+	padding: 20px;
+	color: #000000;
+	font: 54px;
+}
+.nav {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	height: 60px;
+	align-items: center;
+	font-size: 24px;
+	font-family: serif;
+	text-transform: capitalize;
+	color: black;
+}
+
+.first-line {
+	display: inline-flex;
+}
+
+.firstimg {
+	padding: 15px;
+	width: 310px;
+}
+
+.first-line-box {
+	text-align: center;
+}
+
+.numbers {
+	display: flex;
+	justify-content: center;
+	padding: 32px 0px;
+}
+
+.num {
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+.num:hover {
+	background-color: black;
+	color: white;
+}
+
+.about {
+	text-align: center;
+}
+
+.banana {
+	width: 726px;
+	height: 433.69px;
+	padding-bottom: 32px;
+}
+
+.about-me {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+
+.about-text {
+	text-align: center;
+}
+
+.text-bold {
+	margin: 10px 10px;
+}
+
+.text-italic {
+	padding-bottom: 15px;
+}
+
+.text-about {
+	margin: 10px 30px;
+	line-height: 30px;
+}
+.first-footer{
+	width: 33%;
+}
+.second-footer{
+	width: 33%;
+}
+.blog-list{
+list-style: none;
+}
+.blog-img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 16px 0px 0px;
+	padding-top: 20px;
+}
+.blog-link{
+
+	text-decoration: none; 
+}
+.blog-link:hover{
+	border: 1px solid #CCC;
+	background-color: #CCC; 
+}
+.blog-title{
+	font-size: 18px;
+}
+.blog-text{
+	font-size: 15px;
+	padding-left: 70px;
+	top: 50%;
+}
+.third-footer{
+	width: 33%;
+}
+.first-footer h3{
+	font-size: 24px;
+	marker: 10px 0px
+}
+.first-footer p{
+	font-size: 15px;
+	margin: 15px 0px;
+	width: 230px;
+}
+.footer{
+	display: inline-flex;
+	padding: 32px 8px;
+	margin: 32px;
+}
+.tag-list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.menu-tag{
+	text-decoration: none;
+	color: black;
+}
+.menu-tag:hover{
+	text-decoration: none;
+	border:solid 1px #bfbaba;
+	background-color: #bfbaba;
+	padding: 16px;
+	color: black;
+}
+.tags{
+	color: white;
+	border: 1px solid #616161;
+	text-decoration: none;
+	padding: 0px 8px;
+	background-color: #616161;
+	margin: 5px;
+	font-size: 12px;
+}
+.tags:hover{
+	color: white;
+	border: 1px solid #000000;
+	text-decoration: none;
+	padding: 0px 8px;
+	background-color: #000000;
+	margin: 5px;
+	font-size: 15px;
+}
+#navbar{
+	overflow: hidden;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
